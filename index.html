@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+
+    <title>Super Mario Bros - O Filme</title>
+</head>
+<body>
+    <div class="video-background">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/video-mario.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+    <header class="header-content">
+        <a><img class="logo" src="./src/images/logo-chapeu-mario.png" alt="logo-mario"></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informations">
+            <img class="image-title" src="./src/images/titulo.png" alt="imagem do titulo do filme">
+            <p class="description">Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.</p>
+            <button>Veja o trailer</button>
+        </div>
+
+        <div class="mario"><img src="./src/images/super-mario-chars.png" alt="super-mario-chars"></div>
+
+        <div class="modal">
+            <div class="content-modal">
+                <span class="close-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
